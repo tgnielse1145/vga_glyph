@@ -132,7 +132,7 @@ always @(PS, data_in, inc_out) begin
 			
 			
 			we = 1'b1;
-			NS = FETCH_X
+			NS = FETCH_X;
 		end
 		IDLE: begin
 			NS = IDLE;
